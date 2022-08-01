@@ -50,6 +50,18 @@ body{
     background-color: #eaeaea;
 }
 
+section{
+    width: 78%;
+    margin: auto;
+}
+
+picture{
+    margin: auto;
+    padding-left: 100px;
+    width: 50%;
+
+}
+
 
 #menu{
     list-style: none;
