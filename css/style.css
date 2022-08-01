@@ -16,11 +16,6 @@
 
 }
 
-#containerHome{
-    display: ;
-
-}
-
 #logoHome{
     position: absolute;   
 }
@@ -77,13 +72,19 @@
     text-align: justify;
 }
 
+header > h1{
+    font-family: var(--fonte2);
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 5vw;
+}
 
 header > p{
     padding-bottom: 50px;
 }
 
 a{
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -124,18 +125,24 @@ section.imagem > p{
 }
 
 section#img01{
-    background-image: url('../assets/biglogo.png');
-    background-position: right center;
+    background-image: url('../assets/img03.jpeg');
+    background-position: top center;
 }
 
 section#img02{
-    background-image: url('../assets/garota2.jpeg');
+    background-image: url('../assets/WhatsApp\ Image\ 2022-06-18\ at\ 17.10.02\ \(3\).jpeg');
 
 }
 footer{
     background-color: black;
+    width: 100%;
     color: white;
     text-align: center;
     position: fixed;
+    bottom: 0;
     padding: 10px;
+}
+
+footer a{
+    color: white;
 }
