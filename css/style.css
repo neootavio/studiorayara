@@ -53,6 +53,7 @@ body{
 section{
     width: 78%;
     margin: auto;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.162);
 }
 
 picture{
@@ -62,6 +63,21 @@ picture{
 
 }
 
+.bg_video{
+	position: fixed; 
+    box-sizing: border-box;
+	right: 0; 
+	bottom: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+	min-width: 100%; 
+	min-height: 100%;
+	width: 100%; 
+	z-index: -1000;
+	background: url(images/torre.jpg) no-repeat;
+	background-size: cover; 
+}
 
 #menu{
     list-style: none;
@@ -79,6 +95,8 @@ picture{
     padding: 16px;
     box-sizing: border-box;
     border-radius: 10px;
+    border: 1px solid rgba(240, 248, 255, 0.205);
+    box-shadow: 10px 10px;
    
 }
 
@@ -124,8 +142,9 @@ header{
 
 nav{
     position: fixed;
+    left: 0;
     top: 0;
-    width: 80%;
+    width: 100%;
     background-color: rgb(0, 0, 0);
 }
 
