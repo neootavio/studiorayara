@@ -124,7 +124,7 @@ picture{
 }
 
 #menu li:hover{
-    background-color: chocolate;
+    background-color: rgba(212, 62, 214, 0.541);
 }
 
 .descricao{
