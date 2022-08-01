@@ -1,3 +1,5 @@
+
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -5,75 +7,71 @@
 
 }
 
-header{
-    position: fixed;
-    background-color: white;
-    text-align: center;
+#containerHome{
+    display: ;
+
 }
 
-nav{
-    position: fixed;
-    width: 100%;
-    margin: auto;
+#logoHome{
+    position: absolute;   
 }
 
-ul{
-    text-decoration: none;
-    padding: 10px; 
-    margin: auto;
-    
-}
-
-li{
-    display: inline-block;
-    border-style: solid black;
-    border-radius: 10px;
+#menu{
+    list-style: none;
+    float: left;
     padding: 20px;
-    margin: 0 auto;
-    width: 45px;
-    height: 20px;
-    list-style-type: none;
+    margin: auto;
     text-align: center;
-    background-color: black;
-    color: white;
-    font-size: 15px;
-    position: sticky;
-    
 }
 
-a{
+#menu li{
+    position: relative;
+    float: left;
+    border-right: 1px solid #c0c0c0;
+    background-color: black;
+    margin: auto;
+    padding: 16px;
+    box-sizing: border-box;
+   
+}
+
+#menu li a{
     text-decoration: none;
     color: black;
     margin: 0 auto;
 }
 
-a:hover{
+#menu li a:hover{
     color: white;
 }
 
-a:visited{
+#menu li a:visited{
     text-decoration: none;
     color: white;
 }
 
-a::before{
+#menu li a::before{
     color: black;
 }
 
-a::after{
+#menu li a::after{
     color: white;
 }
 
-li:hover{
+#menu li:hover{
     background-color: chocolate;
 }
 
 .descricao{
-    margin: auto;
-    padding: 30px;
+    box-sizing: border-box;
     font-size: 18px;
-    text-align: center;
-    background-color: black;
-    color: white;
+    text-align: justify;
+}
+
+main{
     
+}
+
+footer{
+    text-align: right;
 }
