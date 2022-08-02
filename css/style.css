@@ -15,23 +15,28 @@
     }
     
     #menu li{
-        position: relative;
-        background-color:black;
-        margin-left: 1px;
-        padding: 16px;
+        position: fixed; 
         box-sizing: border-box;
-        border-radius: 10px;
+        right: 0; 
+        bottom: 0;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        min-width: 100%; 
+        min-height: 100%;
+        width: 100%;         
+        background-size: cover; 
        
     }
 
     header > h1{
         font-family: var(--fonte2);
-        padding-top: 20vh;
+        padding-top: 80vh;
         font-variant: small-caps;
         font-size: 5vw;
         margin-top: 10vh;
     }
-
+    
 }
 
 :root{
@@ -254,4 +259,5 @@ button {
   .servicos{
     width: 100%;
     height: 100%;
+    z-index: -1000;
   }
