@@ -39,6 +39,10 @@
     
 }
 
+link{
+    border-radius: 50%;
+}
+
 :root{
     --fonte1: verdana, geneva, tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
