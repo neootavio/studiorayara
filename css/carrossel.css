@@ -1,0 +1,24 @@
+
+.main{
+    display: block;
+    padding: 20px;
+
+}
+
+.gallery{
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    overflow: hidden;    
+}
+
+.gallery .fotos{
+    width: 500%;   
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.gallery .fotos img {
+    width: 19.9%;
+}

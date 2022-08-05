@@ -1,0 +1,20 @@
+
+button {
+    cursor: pointer;
+    outline: none;
+    padding: 20px 28px;
+    background: none;
+    transition: box-shadow 0.1s;
+    color: #e9f0f3;
+    border: 0px solid #1d1f20;
+    text-align: center;
+    border-radius: 50px;
+}
+  
+button:hover {
+    border: 0px;
+    color: #eaecf0;
+    border-radius: 50px;
+    box-shadow: 0px 0px 35px #e089dc, 0px 0px 15px #f281f0 inset;
+    text-shadow: 0px 0px #ecc6f0, 0px 0px 3px #d5a9ea;
+}
