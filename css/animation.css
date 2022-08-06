@@ -6,24 +6,27 @@
         margin-left: 0;
     }
     25% {
-        margin-left: -100%;
+        margin-left: -101%;
     }
     45% {
-        margin-left: -100%;
+        margin-left: -101%;
     }
     50% {
-        margin-left: -200%;
+        margin-left: -201%;
     }
     70% {
-        margin-left: -200%;
+        margin-left: -201%;
     }
     75% {
-        margin-left: -300%;
+        margin-left: -301%;
     }
-    95% {
-        margin-left: -300%;
+    90% {
+        margin-left: -301%;
     }
     100% {
-        margin-left: -400%;
+        margin-left: -420%;
+    }
+    100% {
+        margin-left: -420%;
     }
 }

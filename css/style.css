@@ -59,12 +59,16 @@ picture{
 
 
 nav{
+    position: relative;
+    background-color: white;
     width: 100%;
-    background-color: black;
+    display: inline-block;
 }
 
 #menu{
     display: flex;
+    list-style-type: none;
+    margin: auto;
 }
 
 header > h1{
@@ -162,8 +166,25 @@ footer a{
     z-index: -1000;
  }
 
- #agenda{
-    max-width: 70%;
-    object-fit: cover;
-    object-position: bottom;
+
+ section#containerAgenda{
+    background-image: url('../assets/arte/agenda\ agosto1.png');
+    background-position: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 99vh;
+
+ }
+
+ #clientes{
+    border-radius: 0%;
+ }
+
+ #imgCapa{
+    display: block;
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    padding: 0;
  }
