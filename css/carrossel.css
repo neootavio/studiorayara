@@ -8,8 +8,8 @@
 }
 
 .gallery{
-    width: 50%;
-    height: 18vh;
+    width: 80%;
+    height: 90%;
     border-radius: 21px;
     border: 2px solid black;
     padding: 0;
@@ -27,6 +27,8 @@
     animation-name: animacao;
     animation-duration: 30s;
     animation-iteration-count: infinite;
+    padding: 0;
+    margin: 0;
 }
 
 .gallery .fotos img {
