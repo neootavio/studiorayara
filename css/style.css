@@ -237,11 +237,6 @@ footer a{
     width: 100%;
  }
 
- #textoInicio{
-    width: 100%;
-    text-align: justify;
-    margin: auto;
- }
  
  #inscreva-se, #fraseRandomica{
     display: block;
@@ -250,9 +245,10 @@ footer a{
     position: relative;
  }
 
- #imgRandom{
+ #imgRandom, #textoInicio{
     display: block;
     margin: auto;
     position: relative;
     text-align: center;
+    padding: 20px;
  }
