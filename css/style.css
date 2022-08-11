@@ -249,3 +249,10 @@ footer a{
     top: 0;
     position: relative;
  }
+
+ #imgRandom{
+    display: block;
+    margin: auto;
+    position: relative;
+    text-align: center;
+ }
