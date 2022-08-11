@@ -70,13 +70,19 @@ nav{
 }
 
 #imgTopo{
-    width: 30vh;
+    display: flex;
+    width: 20vw;
+    padding: 0;
     margin: auto;
  }
 
  #imgCapa{
-    width: 100%;
-    height: 55vh;
+    display: block;
+    width: 370px;
+    height: 370px;
+    margin: auto;
+    padding: 0;
+    
  }
 
  #imgHome{
@@ -88,8 +94,9 @@ nav{
  }
 
  .redeSocial{
-    
-
+    display: flex;
+    float: right;
+    margin: auto;
  }
  
 #menu-item{
@@ -126,6 +133,13 @@ header > h1 > a, header > h1{
     padding: 20px;
 }
 
+h2{
+    font-family: var(--fonte2);
+    font-variant: small-caps;
+    font-size: 5vw;
+    padding: 0;
+}
+
 p{
     padding-bottom: 21px;
 }
@@ -158,6 +172,7 @@ section.imagem{
     color: white;
     background-size: cover;
     background-attachment: fixed;
+    margin: auto;
 }
 
 section.imagem > p{
@@ -228,3 +243,9 @@ footer a{
     margin: auto;
  }
  
+ #inscreva-se{
+    display: block;
+    margin: auto;
+    top: 0;
+    position: relative;
+ }
