@@ -11,3 +11,15 @@ Informações de contato: localização e telefone do seu salão
 Área de atendimento online: ofereça um espaço para pedir orçamentos ou marcar horários
 
 Feature js
+
+**Landing page (Inscrição)
+
+**Página de obrigado (Agradecimento)
+
+**Formulários (Ferramenta de email-marketing) - gerado pela landing page (com tags para identificar a origem do email)
+
+**Domínios
+
+**Campanhas
+
+
