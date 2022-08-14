@@ -66,15 +66,9 @@
     }
 }
 
-.ball {
-    margin-top: 50px;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background-color: cornflowerblue;
-    border: 2px solid #999;
-    animation: bounce 1s infinite alternate;
-    -webkit-animation: bounce 1s infinite alternate;
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 
@@ -112,9 +106,9 @@
 }
 
 .menuAnimado{
-    animation-name: bounce;
-    animation-duration: 500ms;
+    animation-name: fadein;
+    animation-duration: 1s;
     transition-timing-function: ease;
     animation-fill-mode: forwards;
-    animation-direction: reverse;
+    animation-direction: normal;
 }
