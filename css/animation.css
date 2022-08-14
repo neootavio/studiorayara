@@ -65,8 +65,8 @@
 
 .foto{
  display: inline-block;
- width: 200px;
- height: 200px;
+ width: 30vh;
+ height: 30vh;
  border-style: solid;
 }
 
@@ -74,14 +74,17 @@
  animation-name: entradaEsquerda;
  animation-duration: 2s;
  transition: steps();
+ transition-timing-function: ease;
 }
 
 .f2{
  animation-name: entradaDeBaixo;
- animation-duration: 3s;
+ animation-duration: 4s;
+ transition-timing-function: ease;
 }
 
 .f3{
  animation-name: entradaDireita;
  animation-duration: 2s;
+ transition-timing-function: ease;
 }
