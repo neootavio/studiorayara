@@ -80,6 +80,30 @@
     to   { opacity: 1; }
 }
 
+@keyframes modTamanho {
+
+    0%{
+        font-size: larger;
+    }
+
+    25%{
+        font-size: large;
+    }
+
+    50%{
+        font-size: medium;
+    }
+
+    75%{
+        font-size: smaller;
+    }
+
+    100%{
+        font-size: small;
+    }
+    
+}
+
 
 
 .container{
@@ -138,4 +162,13 @@
     animation-duration: 1s;
     animation-delay: 3s;
     animation-fill-mode: backwards;
+}
+
+.heartBeating{
+    animation-name: modTamanho;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    transition-duration: 100ms;
 }
