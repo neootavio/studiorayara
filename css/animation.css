@@ -57,6 +57,15 @@
  
 }
 
+@keyframes entradaDeCima {
+    from{
+        transform: translateY(-300px)
+    } to{
+        transform: translateY(0);
+    }
+    
+}
+
 @keyframes bounce {
     from {
       transform: translateY(0px);
@@ -95,7 +104,7 @@
 
 .f2{
  animation-name: entradaDeBaixo;
- animation-duration: 4s;
+ animation-duration: 3s;
  transition-timing-function: ease;
 }
 
@@ -116,9 +125,17 @@
 .setaProximo{
     display: inline-block;
     float: right;
+    animation-name: entradaDireita;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
 }
 
 .setaAnterior{
     display: inline-block;
     float: left;
+    animation-name: entradaEsquerda;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
 }
