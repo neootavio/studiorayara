@@ -1,0 +1,17 @@
+.imagemFundo{
+    background-image: url(../assets/arte/logorm.png);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    margin: auto;
+}
+
+.i1{
+    width: 300px;
+    height: 300px;
+    padding: 0;
+}
+
+

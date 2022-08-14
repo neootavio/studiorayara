@@ -30,3 +30,58 @@
         margin-left: -430%;
     }
 }
+
+@keyframes entradaEsquerda{
+    from{
+         transform: translateX(-300px);
+    } 
+    to{
+         transform: translateX(0);
+    }
+}
+
+@keyframes entradaDireita {
+ from{
+     transform: translateX(+300px);
+ } to{
+     transform: translateX(0)
+ }
+}
+
+@keyframes entradaDeBaixo {
+ from{
+     transform: translateY(300px);
+ } to{
+     transform: translateY(0);
+ }
+ 
+}
+
+.container{
+ display: block;
+ text-align: center;
+ padding: 5px;
+}
+
+.foto{
+ display: inline-block;
+ width: 200px;
+ height: 200px;
+ border-style: solid;
+}
+
+.f1{
+ animation-name: entradaEsquerda;
+ animation-duration: 2s;
+ transition: steps();
+}
+
+.f2{
+ animation-name: entradaDeBaixo;
+ animation-duration: 3s;
+}
+
+.f3{
+ animation-name: entradaDireita;
+ animation-duration: 2s;
+}
