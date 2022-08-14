@@ -12,9 +12,12 @@ button {
 }
   
 button:hover {
+    font-size: medium;
     border: 0px;
     color: #6e1899;
     border-radius: 50px;
     box-shadow: 0px 0px 35px #e089dc, 0px 0px 15px #f281f0 inset;
     text-shadow: 0px 0px #ecc6f0, 0px 0px 3px #d5a9ea;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
 }

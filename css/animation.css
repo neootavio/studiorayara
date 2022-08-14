@@ -57,6 +57,28 @@
  
 }
 
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+}
+
+.ball {
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+    border: 2px solid #999;
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+
+
 .container{
  display: block;
  text-align: center;
@@ -87,4 +109,12 @@
  animation-name: entradaDireita;
  animation-duration: 2s;
  transition-timing-function: ease;
+}
+
+.menuAnimado{
+    animation-name: bounce;
+    animation-duration: 500ms;
+    transition-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
 }
