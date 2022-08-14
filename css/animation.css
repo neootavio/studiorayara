@@ -112,3 +112,13 @@
     animation-fill-mode: forwards;
     animation-direction: normal;
 }
+
+.setaProximo{
+    display: inline-block;
+    float: right;
+}
+
+.setaAnterior{
+    display: inline-block;
+    float: left;
+}
