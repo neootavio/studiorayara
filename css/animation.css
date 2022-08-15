@@ -172,3 +172,12 @@
     animation-iteration-count: infinite;
     transition-duration: 100ms;
 }
+
+#inscreva-se:hover{
+    animation-name: modTamanho;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    transition-duration: 100ms;
+}
