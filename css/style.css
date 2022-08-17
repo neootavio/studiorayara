@@ -29,7 +29,8 @@ section{
 
 .redes{
     position: relative;
-    right: 0;
+    text-align: center;
+    padding: 1vh;
 }
 
 .bg_video{
