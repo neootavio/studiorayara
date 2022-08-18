@@ -79,6 +79,11 @@ footer{
     text-align: center;
 }
 
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
 .picture{
     width: 160px;
 }
