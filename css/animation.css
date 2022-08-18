@@ -42,7 +42,7 @@
 
 @keyframes entradaEsquerda {
     from {
-        transform: translateX(-100%);
+        transform: translateX(-99%);
     }
 
     to {
@@ -52,7 +52,7 @@
 
 @keyframes entradaDireita {
     from {
-        transform: translateX(+100%);
+        transform: translateX(+99%);
     }
 
     to {
@@ -62,7 +62,7 @@
 
 @keyframes entradaDeBaixo {
     from {
-        transform: translateY(100%);
+        transform: translateY(99%);
     }
 
     to {
@@ -73,7 +73,7 @@
 
 @keyframes entradaDeCima {
     from {
-        transform: translateY(-100%)
+        transform: translateY(-99%)
     }
 
     to {
