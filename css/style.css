@@ -135,10 +135,12 @@ header > h1 > a, header > h1{
 }
 
 h2{
+    margin: auto;
+    text-align: center;
     font-family: var(--fonte2);
     font-variant: small-caps;
-    font-size: 5vw;
-    padding: 0;
+    font-size: 7vw;
+    padding: 5px;
 }
 
 p{

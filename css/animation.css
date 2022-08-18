@@ -148,7 +148,7 @@
 .container {
     display: block;
     text-align: center;
-    padding: 5px;
+    padding: 2px;
 }
 
 .foto {
@@ -161,7 +161,6 @@
 .f1 {
     animation-name: entradaEsquerda;
     animation-duration: 2s;
-    transition: steps();
     transition-timing-function: ease;
 }
 
