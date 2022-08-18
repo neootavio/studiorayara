@@ -253,3 +253,9 @@ footer a{
     text-align: center;
     padding: 20px;
  }
+
+ #cliqueAqui{
+    display: inline;
+    left: 0;
+    top: 36%;
+ }

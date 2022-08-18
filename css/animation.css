@@ -1,144 +1,183 @@
-@keyframes animacao{
+@keyframes animacao {
     0% {
         margin-left: 0;
     }
+
     20% {
         margin-left: 0;
     }
+
     25% {
         margin-left: -101%;
     }
+
     45% {
         margin-left: -101%;
     }
+
     50% {
         margin-left: -201%;
     }
+
     70% {
         margin-left: -201%;
     }
+
     75% {
         margin-left: -321%;
     }
+
     90% {
         margin-left: -321%;
     }
+
     100% {
         margin-left: -430%;
     }
+
     100% {
         margin-left: -430%;
     }
 }
 
-@keyframes entradaEsquerda{
-    from{
-         transform: translateX(-100%);
-    } 
-    to{
-         transform: translateX(0);
+@keyframes entradaEsquerda {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
     }
 }
 
 @keyframes entradaDireita {
- from{
-     transform: translateX(+100%);
- } to{
-     transform: translateX(0)
- }
+    from {
+        transform: translateX(+100%);
+    }
+
+    to {
+        transform: translateX(0)
+    }
 }
 
 @keyframes entradaDeBaixo {
- from{
-     transform: translateY(100%);
- } to{
-     transform: translateY(0);
- }
- 
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+
 }
 
 @keyframes entradaDeCima {
-    from{
+    from {
         transform: translateY(-100%)
-    } to{
+    }
+
+    to {
         transform: translateY(0);
     }
-    
+
 }
 
 @keyframes bounce {
     from {
-      transform: translateY(0px);
+        transform: translateY(0px);
     }
+
     to {
-      transform: translateY(-15px);
+        transform: translateY(-15px);
     }
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes modTamanho {
 
-    0%{
+    0% {
         font-size: larger;
     }
 
-    25%{
+    25% {
         font-size: large;
     }
 
-    50%{
+    50% {
         font-size: medium;
     }
 
-    75%{
+    75% {
         font-size: smaller;
     }
 
-    100%{
+    100% {
         font-size: small;
     }
-    
+
+}
+
+@keyframes animacaoUm {
+    0% {
+
+        border-width: 0 0 2px 2px;
+    }
+
+    50% {
+        border-width: 0 0 2px 2px;
+        margin-left: 2%;
+    }
+
+
+    100% {
+        border-width: 0 0 2px 2px;
+    }
 }
 
 
 
-.container{
- display: block;
- text-align: center;
- padding: 5px;
+.container {
+    display: block;
+    text-align: center;
+    padding: 5px;
 }
 
-.foto{
- display: inline-block;
- width: 30vh;
- height: 30vh;
- border-style: solid;
+.foto {
+    display: inline-block;
+    width: 30vh;
+    height: 30vh;
+    border-style: solid;
 }
 
-.f1{
- animation-name: entradaEsquerda;
- animation-duration: 2s;
- transition: steps();
- transition-timing-function: ease;
+.f1 {
+    animation-name: entradaEsquerda;
+    animation-duration: 2s;
+    transition: steps();
+    transition-timing-function: ease;
 }
 
-.f2{
- animation-name: entradaDeBaixo;
- animation-duration: 3s;
- transition-timing-function: ease;
+.f2 {
+    animation-name: entradaDeBaixo;
+    animation-duration: 3s;
+    transition-timing-function: ease;
 }
 
-.f3{
- animation-name: entradaDireita;
- animation-duration: 2s;
- transition-timing-function: ease;
+.f3 {
+    animation-name: entradaDireita;
+    animation-duration: 2s;
+    transition-timing-function: ease;
 }
 
-.menuAnimado{
+.menuAnimado {
     animation-name: fadein;
     animation-duration: 1s;
     transition-timing-function: ease;
@@ -146,7 +185,7 @@
     animation-direction: normal;
 }
 
-.setaProximo{
+.setaProximo {
     display: inline-block;
     animation-name: entradaDireita;
     animation-duration: 1s;
@@ -154,14 +193,14 @@
     animation-fill-mode: backwards;
 }
 
-.setaAnterior{
+.setaAnterior {
     animation-name: entradaEsquerda;
     animation-duration: 1s;
     animation-delay: 2.5s;
     animation-fill-mode: backwards;
 }
 
-.heartBeating{
+.heartBeating {
     animation-name: modTamanho;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
@@ -170,11 +209,24 @@
     transition-duration: 100ms;
 }
 
-#inscreva-se:hover{
+#inscreva-se:hover {
     animation-name: modTamanho;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
     transition-duration: 100ms;
+}
+
+.seta {
+    position: absolute;
+    padding: 20px;
+    box-shadow: 2px -2px 0 1px #000 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-135deg);
+    animation-name: animacaoUm;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
 }
