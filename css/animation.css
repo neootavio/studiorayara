@@ -134,7 +134,7 @@
 
     50% {
         border-width: 0 0 2px 2px;
-        margin-left: 2%;
+        margin-top: 2%;
     }
 
 
@@ -224,7 +224,7 @@
     box-shadow: 2px -2px 0 1px #000 inset;
     border: solid transparent;
     border-width: 0 0 2px 2px;
-    transform: rotate(-135deg);
+    transform: rotate(-45deg);
     animation-name: animacaoUm;
     animation-duration: 1s;
     animation-fill-mode: backwards;
