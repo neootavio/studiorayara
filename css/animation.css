@@ -33,7 +33,7 @@
 
 @keyframes entradaEsquerda{
     from{
-         transform: translateX(-300px);
+         transform: translateX(-100%);
     } 
     to{
          transform: translateX(0);
@@ -42,7 +42,7 @@
 
 @keyframes entradaDireita {
  from{
-     transform: translateX(+300px);
+     transform: translateX(+100%);
  } to{
      transform: translateX(0)
  }
@@ -50,7 +50,7 @@
 
 @keyframes entradaDeBaixo {
  from{
-     transform: translateY(300px);
+     transform: translateY(100%);
  } to{
      transform: translateY(0);
  }
@@ -59,7 +59,7 @@
 
 @keyframes entradaDeCima {
     from{
-        transform: translateY(-300px)
+        transform: translateY(-100%)
     } to{
         transform: translateY(0);
     }
@@ -148,7 +148,6 @@
 
 .setaProximo{
     display: inline-block;
-    float: right;
     animation-name: entradaDireita;
     animation-duration: 1s;
     animation-delay: 3s;
@@ -156,11 +155,9 @@
 }
 
 .setaAnterior{
-    display: inline-block;
-    float: left;
     animation-name: entradaEsquerda;
     animation-duration: 1s;
-    animation-delay: 3s;
+    animation-delay: 2.5s;
     animation-fill-mode: backwards;
 }
 
