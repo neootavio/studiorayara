@@ -42,7 +42,7 @@
 
 @keyframes entradaEsquerda {
     from {
-        transform: translateX(-50%);
+        transform: translateX(-60%);
     }
 
     to {
@@ -52,7 +52,7 @@
 
 @keyframes entradaDireita {
     from {
-        transform: translateX(+50%);
+        transform: translateX(+60%);
     }
 
     to {
