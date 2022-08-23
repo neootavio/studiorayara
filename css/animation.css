@@ -42,7 +42,7 @@
 
 @keyframes entradaEsquerda {
     from {
-        transform: translateX(-99%);
+        transform: translateX(-30%);
     }
 
     to {
@@ -52,7 +52,7 @@
 
 @keyframes entradaDireita {
     from {
-        transform: translateX(+99%);
+        transform: translateX(+30%);
     }
 
     to {
@@ -62,7 +62,7 @@
 
 @keyframes entradaDeBaixo {
     from {
-        transform: translateY(99%);
+        transform: translateY(45%);
     }
 
     to {
@@ -73,7 +73,7 @@
 
 @keyframes entradaDeCima {
     from {
-        transform: translateY(-99%)
+        transform: translateY(-45%)
     }
 
     to {
@@ -176,6 +176,12 @@
     transition-timing-function: ease;
 }
 
+.f4{
+    animation-name: entradaDeCima;
+    animation-duration: 2s;
+    transition-timing-function: ease;
+}
+
 .menuAnimado {
     animation-name: fadein;
     animation-duration: 1s;
@@ -219,13 +225,13 @@
 
 .seta {
     position: absolute;
-    padding: 3px;
+    padding: 5px;
     box-shadow: 2px -2px 0 1px #000 inset;
     border: solid transparent;
     border-width: 0 0 2px 2px;
     transform: rotate(-45deg);
     animation-name: animacaoUm;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
 }
