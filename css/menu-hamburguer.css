@@ -33,7 +33,6 @@
     top: 29px;
     left: 15px;
     transition: 0.5s cubic-bezier(.19, 1, .22, 1);
-    z-index: 10000;
 }
 
 .hamburguer::before,
@@ -64,7 +63,9 @@ input:checked~.ul-hamburguer {
 }
 
 input:checked~label .menuH {
-    box-shadow: 0 0 0 0 black, 0 0 0 100vh black;
+    box-shadow: 0 0 0 20vw transparent, 0 0 0 100vh black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 input:checked~label .hamburguer {
@@ -84,7 +85,7 @@ input:checked~label .hamburguer::after {
 .ul-hamburguer {
     position: absolute;
     font-size: 1em;
-    left: 8%;
+    left: 2%;
     top: 80%;
     padding: 15px;
     opacity: 0;
