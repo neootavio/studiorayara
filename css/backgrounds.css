@@ -17,8 +17,32 @@
 .imagemInteira{
     display: block;
     margin: auto;
-    max-width: 300px;
+   max-width: 600px;
 
  }
 
+ .bordaNeon{
+    width: 92%;
+    margin: auto;
+    display: grid;
+    box-sizing: border-box;
+    border: 1px solid #f281f0;
+    box-shadow: 0px 0px 35px #e089dc, 0px 0px 1px #e089dc inset;
+    text-shadow: 0px 0px #f281f0, 0px 0px 3px #f281f0;
+    text-align: center;
+    /*#e089dc, #f281f0*/
+  }
+  
+.bordaSimples{
+    box-sizing: border-box;
+    width: 92%;
+    margin: auto;
+    display: grid;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    box-shadow: 0px 0px 35px #0a99e132, 0px 0px 2px #e089dc inset;
+    padding: 21px;
+    text-align: center;
+   
+  }
 

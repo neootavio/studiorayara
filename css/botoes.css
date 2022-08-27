@@ -30,6 +30,12 @@ button:hover {
     top: 50%;
 }
 
+.setaVoltar:active, .setaAvancar:active{
+    border: 1px solid black;
+    transition: .5s;
+    border-width: 0 0 7px 7px;
+}
+
 .setaAvancar {
     position: absolute;
     padding: 20px;
