@@ -12,7 +12,7 @@ var slideRight = {
     opacity: null
 };
 
-sr.reveal('.item1', {duration: 1500});
+sr.reveal('.item1', slideUp);
 
 sr.reveal('.item2', {rotate: {x: 0, y: 80, z:0}});
 
