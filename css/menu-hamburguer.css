@@ -86,7 +86,7 @@ input:checked~label .hamburguer::after {
     position: absolute;
     font-size: 1em;
     left: 35%;
-    top: 50%;
+    top: 60%;
     transform: translate(-100%, -130%);
     padding: 15px;
     opacity: 0;
