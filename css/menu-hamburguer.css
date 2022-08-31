@@ -90,7 +90,7 @@ input:checked~label .hamburguer::after {
     transform: translate(-410%, -130%);
     padding: 15px;
     opacity: 0;
-    transition: 0.25s .5s cubic-bezier(.19, 1, .22, 1);
+    transition: 0.25s .1s cubic-bezier(.19, 1, .22, 1);
     list-style-type: none;
     color: white;
     
