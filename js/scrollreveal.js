@@ -18,4 +18,4 @@ sr.reveal('.item2', {rotate: {x: 0, y: 80, z:0}});
 
 sr.reveal('.item3', slideUp);
 
-sr.reveal('.item4', slideUp);
+sr.reveal('.item4', slideRight);
