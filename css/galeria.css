@@ -21,7 +21,7 @@ body{
 }
 
 .fixo{
-    font-size: 50px;
+    font-size: 5vh;
     position: fixed;
     left: 50%;
     top: 10%;
