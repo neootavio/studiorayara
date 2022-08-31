@@ -6,12 +6,16 @@ var slideUp = {
     opacity: null
 };
 
-sr.reveal('.card--1', {duration: 1500});
+var slideRight = {
+    distance: '150%',
+    origin: 'right',
+    opacity: null
+};
 
-sr.reveal('.card--2', {rotate: {x: 0, y: 80, z:0}});
+sr.reveal('.item1', {duration: 1500});
 
-sr.reveal('.card--3', slideUp);
+sr.reveal('.item2', {rotate: {x: 0, y: 80, z:0}});
 
-sr.reveal()
+sr.reveal('.item3', slideUp);
 
-sr.reveal('.card--4', slideUp);
+sr.reveal('.item4', slideUp);
