@@ -27,3 +27,7 @@ body{
     top: 10%;
     transform: translate(-50%, -50%);
 }
+
+.item2, .item3, .item4{
+    visibility: hidden;
+}
