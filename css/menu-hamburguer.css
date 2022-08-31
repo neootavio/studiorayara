@@ -63,7 +63,7 @@ input:checked~.ul-hamburguer {
 }
 
 input:checked~label .menuH {
-    box-shadow: 0 0 0 100vw black, 0 0 0 100vh transparent;
+    box-shadow: 0 0 0 100vw black, 0 0 0 100vh black;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -87,7 +87,7 @@ input:checked~label .hamburguer::after {
     font-size: 1em;
     left: 50%;
     top: 50%;
-    transform: translate(-250%, -50%);
+    transform: translate(-410%, -130%);
     padding: 15px;
     opacity: 0;
     transition: 0.25s .5s cubic-bezier(.19, 1, .22, 1);
