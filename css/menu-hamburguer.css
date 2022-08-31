@@ -83,10 +83,11 @@ input:checked~label .hamburguer::after {
 }
 
 .ul-hamburguer {
-    position: absolute;
+    position: fixed;
+    display: inline-block;
     font-size: 1em;
     left: 35%;
-    top: 60%;
+    top: 70%;
     transform: translate(-100%, -130%);
     padding: 15px;
     opacity: 0;
