@@ -5,12 +5,11 @@
     background-color: yellow;
     border-radius: 10px;
 
-    
+
 }
 
-.galeria{
-   display: flex;
-    background-color: red;
+.galeria {
+    display: flex;
     margin: auto;
     text-align: center;
 }
