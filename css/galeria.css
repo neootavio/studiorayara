@@ -1,0 +1,16 @@
+.item {
+    display: flex;
+    width: 390px;
+    border: 2px solid black;
+    background-color: yellow;
+    border-radius: 10px;
+
+    
+}
+
+.galeria{
+   display: flex;
+    background-color: red;
+    margin: auto;
+    text-align: center;
+}
