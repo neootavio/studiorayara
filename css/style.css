@@ -4,10 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
 
-@media (max-width: 300px){
+@media (max-width: 700px){
     section.imagem{  
         background-size: cover;
         margin: auto;
+    }
+
+    div{
+        background-color: red;
     }
 
 }
