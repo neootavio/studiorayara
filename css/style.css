@@ -4,15 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
 
-@media (max-width: 700px){
-    section.imagem{  
-        background-size: cover;
-        margin: auto;
-    }
+@media (max-width: 700px){   
 
-    div{
-        background-color: red;
-    }
+    
+
 
 }
 
@@ -172,6 +167,14 @@ section{
     font-family: var(--fonte3);
 }
 
+.centralizar{
+    
+    box-sizing: content-box;
+    text-align: center;
+    margin: auto;
+    
+}
+
 section > p{
     padding-bottom: 2em;
 }
@@ -181,22 +184,7 @@ section.normal{
     color: black;
 }
 
-section.imagem{
-    background-color: rgba(0, 0, 139, 0.129);
-    color: white;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: auto;
-}
-
-section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.508);
-    color: white;
-    display: inline-block;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.399);
-}
-
-section#img01{
+section.img01{
     background-image: url('../assets/rayara/img02.jpeg');
     display: flex;
     background-size: cover;
@@ -205,7 +193,7 @@ section#img01{
     height: 50vh;
 }
 
-section#img02{
+section.img02{
     display: flex;
     background-image: url('../assets/rayara/img06.jpeg');
     background-position: top;

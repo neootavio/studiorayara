@@ -53,3 +53,5 @@ sr.reveal('.item18', {delay:600});
 sr.reveal('.item19', {delay:700});
 
 sr.reveal('.item20', {delay:600});
+
+sr.reveal('.item21', {rotate: {x: 0, y: 80, z:0}});
