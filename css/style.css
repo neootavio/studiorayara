@@ -175,6 +175,11 @@ section{
     
 }
 
+.fixado{
+    position: sticky;
+    
+}
+
 section > p{
     padding-bottom: 2em;
 }

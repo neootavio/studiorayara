@@ -143,6 +143,8 @@
     }
 }
 
+
+
 .corre{
     animation: animacao;
 }
@@ -203,7 +205,7 @@
 .setaAnterior {
     animation-name: entradaEsquerda;
     animation-duration: 1s;
-    animation-delay: 2.5s;
+    animation-delay: 2.8s;
     animation-fill-mode: backwards;
 }
 
@@ -233,49 +235,65 @@
     border-width: 0 0 2px 2px;
     transform: rotate(-45deg);
     animation-name: animacaoUm;
-    animation-duration: 1.5s;
+    animation-duration: 1.8s;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
 }
 
+@keyframes entradaDeCima1 {
+    from {
+        transform: translateY(-1000%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
 .m1 {
-    animation-name: entradaDeCima;
-    animation-duration: 2s;
-    animation-delay: 1.5s;
-    transition-timing-function: ease-in-out;
+    animation-name: entradaDeCima1;
+    animation-duration: .8s;
+    animation-delay: 2.5s;
+    animation-fill-mode: backwards;
+    transition-timing-function: ease-out;
 }
 
 .m2 {
-    animation-name: entradaDeCima;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    transition-timing-function: ease;
+    animation-name: entradaDeCima1;
+    animation-duration: .8s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    transition-timing-function: ease-out;
 }
 
 .m3 {
-    animation-name: entradaDeCima;
-    animation-duration: 2s;
-    animation-delay: .5s;
-    transition-timing-function: ease;
+    animation-name: entradaDeCima1;
+    animation-duration: .8s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+    transition-timing-function: ease-out;
 }
 
 .m4 {
-    animation-name: entradaDeCima;
-    animation-duration: 2s;
-    animation-delay: 1.5s;
-    transition-timing-function: ease;
+    animation-name: entradaDeCima1;
+    animation-duration: .8s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+    transition-timing-function: ease-out;
 }
 
 .m5 {
-    animation-name: entradaDeCima;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    transition-timing-function: ease;
+    animation-name: entradaDeCima1;
+    animation-duration: .8s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+    transition-timing-function: ease-out;
 }
 
 .m6 {
-    animation-name: entradaDeCima;
-    animation-duration: 2s;
-    animation-delay: .5s;
-    transition-timing-function: ease;
+    animation-name: entradaDeCima1;
+    animation-duration: .8s;
+    animation-delay: 0;
+    animation-fill-mode: backwards;
+    transition-timing-function: ease-out;
 }
